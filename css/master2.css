@@ -1,0 +1,225 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+      font-family: 'Spartan', sans-serif;
+      height: 100vh;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 2%;
+  padding-left: 1%;
+}
+
+.top {
+  height: 67%;
+  width: 100%;
+  display: flex;
+}
+
+.tl {
+  width: 70%;
+  z-index: -1;
+}
+
+.hero {
+  width: 61%;
+  height: 67%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.slider {
+  background-color: black;
+  width: 23%;
+  padding: 1rem 1.5rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transform: translateX(2%);
+}
+.slider img {
+  width: 15%;
+}
+
+.tr {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.cta {
+  width: 65%;
+}
+.cta h1 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: hsl(0, 0%, 27%);
+}
+.cta p {
+  color: hsl(0, 0%, 63%);
+  font-size: 12px;
+  line-height: 2;
+}
+
+.shop-now {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ margin-top: 3rem;
+}
+.shop-now h2 {
+  font-size: 16px;
+  letter-spacing: 5px;
+}
+.shop-now img{
+  width: 10%;
+  height: 10%;
+  margin-left: 2rem;
+  margin-bottom: 0.5rem;
+  transform: translateY(-50%;);
+}
+
+.bottom {
+  height: 35%;
+  width: 100%;
+  display: flex;
+}
+
+.bl {
+  width: 30%;
+  height: 100%;
+  background-image: url('../images/image-about-dark.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-furniture {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5%;
+}
+
+.about-furniture h2 {
+ font-size: 17px;
+ font-weight: 700;
+ letter-spacing: 5px;
+ margin-top: 15px;
+}
+.about-furniture p {
+  color: hsl(0, 0%, 63%);
+  font-size: 12px;
+  line-height: 2;
+  margin-top: 2%;
+}
+
+.br {
+  width: 30%;
+  height: 100%;
+  background-image: url('../images/image-about-light.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 700px) {
+
+  .top {
+    height: 67%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tl {
+    width: 100%;
+    z-index: -1;
+  }
+
+  .hero {
+    width: 100%;
+    height: 100%;
+    position: static;
+  }
+
+
+  .tr {
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+  }
+
+  .slider {
+    width: 23%;
+    height: 15%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transform: translate(-100%, -100%);
+  }
+
+  .cta {
+    width: 70%;
+    margin-bottom: 10%;
+  }
+
+  .bottom {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 5%;
+  }
+
+  .bl {
+    margin-top: 10%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-furniture {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5% 15%;
+  }
+
+  .about-furniture h2 {
+   font-size: 17px;
+   font-weight: 700;
+   letter-spacing: 5px;
+   margin-top: 15px;
+  }
+  .about-furniture p {
+    color: hsl(0, 0%, 63%);
+    font-size: 12px;
+    line-height: 2;
+    margin-top: 2%;
+  }
+
+  .br {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/image-about-light.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

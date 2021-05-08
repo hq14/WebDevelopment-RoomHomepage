@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+      font-family: 'Spartan', sans-serif;
+}
+/* ------------------ HEADER SECTION ------------------ */
+#header {
+  height: 376px;
+  position: relative;
+  overflow: hidden;
+}
+#header h1 {
+  position: absolute;
+  left: 50%;
+  top: 7%;
+  transform: translateX(-50%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.hero {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -4;
+}
+
+.slider {
+  background-color: black;
+  width: 30%;
+  padding: 1rem 1.5rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.slider img {
+  width: 15%;
+}
+
+/* ------------------ CTA SECTION ------------------ */
+#cta {
+  padding: 15% 7%
+}
+
+#cta h1 {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: hsl(0, 0%, 27%);
+}
+
+#cta p {
+  color: hsl(0, 0%, 63%);
+  font-size: 12px;
+  line-height: 2;
+}
+
+.shop-now {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ margin-top: 3rem;
+}
+.shop-now h2 {
+  font-size: 16px;
+  letter-spacing: 5px;
+}
+.shop-now img{
+  width: 20%;
+  height: 20%;
+  margin-left: 2rem;
+  margin-bottom: 0.5rem;
+  transform: translateY(-50%;);
+}
+
+/* ------------------ information section ------------------ */
+.info-image1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.info-image2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-furniture {
+  padding: 15% 7%;
+}
+.about-furniture h2 {
+ font-size: 17px;
+ font-weight: 700;
+ letter-spacing: 5px;
+}
+.about-furniture p {
+  color: hsl(0, 0%, 63%);
+  font-size: 12px;
+  line-height: 2;
+  margin-bottom: 0;
+}
